@@ -19,10 +19,16 @@ int main()
 	switch (c)
 	{
 	case 1:
+		cout << MySum(x, y) << endl;
+		break;
 	case 2:
+		cout << MySub(x, y) << endl;
+		break;
 	case 3:
+		cout << MyMul(x, y) << endl;
+		break;
 	case 4:
-		cout << "Выбранная функция в разработке" << endl;
+		cout << MyDiv(x, y) << endl;
 		break;
 	default:
 		cout << "Несуществующая функция" << endl;
