@@ -1,5 +1,6 @@
 //פאיכ calc.cpp 
 #include "stdafx.h" 
+#include "func.h" 
 #include <iostream> 
 using namespace std;
 
